@@ -1,7 +1,7 @@
-site_name: lengoctu70
-site_description: drtule's blog
-site_url: https://github.com/lengoctu70/Obsidian/
-site_author: drTuLe
+site_name: thienqc
+site_description: thienqc's blog
+site_url: https://thienqc.github.io/blog/
+site_author: thienqc
 
 theme:
     name: material
@@ -13,33 +13,42 @@ theme:
         text: JetBrains Mono
         code: JetBrains Mono
     language: en
-
+    
+    # palette:
+      # # Light mode
+      # - media: "(prefers-color-scheme: light)"
+      #   scheme: default
+      #   primary: deep purple
+      #   accent: light blue
     palette:
       - media: "(prefers-color-scheme)"
         toggle:
-          icon: material/theme-light-dark
-          name: Switch color mode
+          icon: material/link
+          name: Switch to light mode
       - media: "(prefers-color-scheme: light)"
         scheme: default
-        primary: blue
-        accent: light blue
+        primary: indigo
+        accent: indigo
         toggle:
-          icon: material/weather-night
+          icon: material/toggle-switch
           name: Switch to dark mode
       - media: "(prefers-color-scheme: dark)"
         scheme: slate
-        primary: light blue
-        accent: cyan
+        primary: black
+        accent: indigo
         toggle:
-          icon: material/weather-sunny
-          name: Switch to light mode
+          icon: material/toggle-switch-off
+          name: Switch to system preference
 
+        
     features:
       - search.suggest
       - search.highlight
       - navigation.footer
 
 copyright: Copyright &copy; 2024 thienqc
+
+
 
 plugins:
   - search
@@ -88,12 +97,14 @@ markdown_extensions:
   - toc:
       permalink: true
 
+
+
 extra:
   social:
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/lengoctu70/
+      link: https://www.facebook.com/yds.thienqc/
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/lnt_212/
+      link: https://www.instagram.com/thienqc/
   analytics:
     provider: google
     property: G-WQ6QJ2DK27
